@@ -1,0 +1,43 @@
+@charset "UTF-8";
+* {
+  font-family: "times new roman", monospace, sans-serif;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+body {
+  margin:0;
+  border-bottom: 1px solid gray;
+}
+h1 {
+  text-align: center;
+  border-bottom: 2px solid gray;
+  margin: 0;
+  padding: 10px 0;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#multiImage {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+}
+#grid #index {
+  font-size: 22px;
+  border-right: 1px solid gray;
+  margin: 0;
+  padding: 10px 30px;
+}
+#grid>div {
+  font-size: 20px;
+  padding: 5px 15px;
+}
+#indexPublication {
+  text-align: center;
+  font-size: 20px;
+}
+li {
+  padding: 5px;
+}

@@ -2,19 +2,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>About Me</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>About Me</title>
   </head>
   <body>
-    <h1><a href="index.html">About Me</a></h1>
-    <ol>
-      <li><a href="index.html">Abstract</a></li>
-      <li><a href="1.html">Education</a></li>
-      <li><a href="2.html">Publication</a></li>
-      <li><a href="3.html">Career</a></li>
-    </ol>
-    <img src="coding.jpg" width="30%">
-    <h2>Abstract</h2>
-      <p>제 이름은 윤종호입니다. 저는 제가 위대하진 않아도 <strong>능력있는 <u>웹 프로그래머</u></strong>가 되리라 믿어 의심치 않습니다.</p>
+    <h1><a href="index.html">About ME - Jongho Yoon</a></h1>
+    <div id="grid">
+      <ul id="index">
+        <li><a href="index.html">Abstract</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li id="indexPublication"><a href="publication.html">Publication & Projects</a></li>
+        <li><a href="career.html">Career</a></li>
+      </ul>
+      <div>
+        <img src="physics.jpg" width="45%">
+        <img src="coding.jpg" width="45%">
+        <div>
+          <h2>Abstract</h2>
+            <p>I want to have a new experience in a new field, so I'm preparing a front-end engineer.</p>
+            <p>For nearly a decade from college to now, I have been in the field of physics.<br>
+              It seemed so boring to imagine myself in the next 10 years.</p>
+            <p>If I live to 100 years old, I still have nearly 70 years left<br>
+              so I want to challenge new fields and live a more fun life.</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
